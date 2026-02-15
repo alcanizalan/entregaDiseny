@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>APAR - Alan</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div id="top">
+            <div class="container">
+                <address>
+                    <div>
+                        <img src="img/location.png" alt="" aria-hidden="true">
+                        <p>Box 565, Bharleston, Nevis, West Indies</p>
+                    </div>
+                    <div>
+                        <img src="img/reloj.png" alt="" aria-hidden="true">
+                        <p>Mon - Sat: 8.00AM - 17.30 PM</p>
+                    </div>
+                </address>
+                <form>
+                    <label for="currency">Currency: </label>
+                    <select name="currency" id="currency">
+                        <option value="usd">USD</option>
+                        <option value="eur">EUR</option>
+                        <option value="gbp">GBP</option>
+                    </select>
+                    <label for="language">Language: </label>
+                    <select name="language" id="language">
+                        <option value="en">EN</option>
+                        <option value="es">ES</option>
+                        <option value="fr">FR</option>
+                    </select>
+                </form>
+            </div>
+        </div>
+        <div id="middle">
+            <div class="container">
+                <p id="hotline">HOTLINE: <a href="tel:+08004237754">+0 (800) 423-754</a></p>
+                <h1 class="hidden">APAR - NEW & USED AUTO PARTS</h1>
+                <img id="logo" src="img/apar_400w.png" alt="Logo APAR"
+                srcset="img/apar_400w.png 400w, img/apar_600w.png 600w, img/apar_800w.png 800w">
+                <nav id="actions" aria-label="User actions">
+                    <button type="button" aria-label="Search products">
+                        <img src="img/search_24dp_252629_FILL0_wght400_GRAD0_opsz24.svg" alt="" aria-hidden="true">
+                    </button>
+                    <button type="button" aria-label="Favorites">
+                        <span class="count">0</span>
+                        <img src="img/favorite_24dp_252629_FILL0_wght400_GRAD0_opsz24.svg" alt="" aria-hidden="true">
+                    </button>
+                    <button type="button" aria-label="Shopping cart">
+                        <span class="count">0</span>
+                        <img src="img/shopping_bag_24dp_252629_FILL0_wght400_GRAD0_opsz24.svg" alt="" aria-hidden="true">
+                    </button>
+                </nav>
+            </div>
+        </div>
+        <nav aria-label="Main navigation">
+            <div class="container">
+                <ul>
+                    <li class="selected"><a href="#shop">SHOP DEPARTAMENTS</a></li>
+                    <li><a href="#home">HOME</a><img src="img/keyboard_arrow_down_24dp_FFFFFF_FILL1_wght400_GRAD0_opsz24.svg" alt="" aria-hidden="true"></li>
+                    <li><a href="#shop">SHOP</a></li>
+                    <li><a href="#store">STORE LIST</a></li>
+                    <li><a href="#blog">BLOG</a><img src="img/keyboard_arrow_down_24dp_FFFFFF_FILL1_wght400_GRAD0_opsz24.svg" alt="" aria-hidden="true"></li>
+                    <li><a href="#pages">PAGES</a><img src="img/keyboard_arrow_down_24dp_FFFFFF_FILL1_wght400_GRAD0_opsz24.svg" alt="" aria-hidden="true"></li>
+                    <li><a href="#contact">CONTACT US</a></li>
+                    <li class="mobile"><button type="button" aria-label="Toggle menu"><img src="img/menu_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.svg" alt="" aria-hidden="true"></button></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <!-- Primera sección -->
+        <section id="intro">
+            <div class="container">
+                <div id="hero">
+                    <h2 class="hidden">ANNOUNCEMENTS AND INFO</h2>
+                    <aside id="promo">
+                        <p>INTERIOR ITEMS FOR</p>
+                        <h3><mark class="orange">LAZANG</mark> CLASS</h3>
+                        <a href="#shop" class="button">SHOP NOW</a>
+                    </aside>
+                    <form id="vehicle-form">
+                        <h3>MY VEHICLES</h3>
+                        <select>
+                            <option value="">-- Make --</option>
+                            <option value="">1</option>
+                            <option value="">2</option>
+                        </select>
+                        <input type="text" placeholder="-- Model --">
+                        <input type="text" placeholder="-- Year --">
+                        <button type="submit">SEARCH</button>
+                        <audio 
+                            src="audio/editmusica.mp3" 
+                            controls 
+                            loop>
+                        </audio>
+
+                    </form>
+                </div>
+                <section id="features" aria-label="Store features">
+                    <article>
+                        <img src="img/camion.png" alt="" aria-hidden="true">
+                        <div class="feature-text">
+                            <h4>FREE DELIVERY</h4>
+                            <p>Worldwide from $27</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="img/escuod.png" alt="" aria-hidden="true">
+                        <div class="feature-text">
+                            <h4>100% GENUINE</h4>
+                            <p>100% genuine goods</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="img/caja.png" alt="" aria-hidden="true">
+                        <div class="feature-text">
+                            <h4>EZ PARTS RETURNS</h4>
+                            <p>365 days return</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="img/regalo.png" alt="" aria-hidden="true">
+                        <div class="feature-text">
+                            <h4>LOYAL CUSTOMERS</h4>
+                            <p>100k items available</p>
+                        </div>
+                    </article>
+                </section>
+                <aside id="banners">
+                    <article id="parts">
+                        <h3>Parts & Assets</h3>
+                        <p>Buy 3 alloy Wheel</p>
+                    </article>
+                    <article id="engines">
+                        <h3>FLAT <mark class="orange">20% OFF<br></mark> NEW DISCOVER ENGINES</h3>
+                        <a href="#shop">SHOP NOW</a>
+                    </article>
+                </aside>
+            </div>
+        </section>
+        <!-- Seccion marcas -->
+        <section id="brands">
+            <h2>CHOOSE PARTS BY BRAND</h2>
+            <p>Lorem ipsum dolor sit amet consectetur</p>
+            <div class="container">
+                <ul>
+                    <li><a href="#brand-viper"><img src="img/brands/1viper.png" alt="Viper Brand"></a></li>
+                    <li><a href="#brand-sportcar"><img src="img/brands/2sportcar.png" alt="Sportcar Brand"></a></li>
+                    <li><a href="#brand-autodetailer"><img src="img/brands/3autodetailer.png" alt="Auto Detailer Brand"></a></li>
+                    <li><a href="#brand-sportcar2"><img src="img/brands/4sportcar.png" alt="Sportcar Brand"></a></li>
+                    <li><a href="#brand-automodif"><img src="img/brands/5automodif.png" alt="Automodif Brand"></a></li>
+                    <li><a href="#brand-grantcar"><img src="img/brands/6grantcar.png" alt="Grantcar Brand"></a></li>
+                    <li><a href="#brand-geteasycar"><img src="img/brands/7geteasycar.png" alt="Get Easy Car Brand"></a></li>
+                    <li><a href="#brand-yourname"><img src="img/brands/8yourname.png" alt="Yourname Brand"></a></li>
+                    <li><a href="#brand-company"><img src="img/brands/9company.png" alt="Company Brand"></a></li>
+                    <li><a href="#brand-harris"><img src="img/brands/10harris.png" alt="Harris Brand"></a></li>
+                    <li><a href="#brand-speedauto"><img src="img/brands/11speedauto.png" alt="Speed Auto Brand"></a></li>
+                    <li><a href="#brand-autocompany"><img src="img/brands/12autocompany.png" alt="Auto Company Brand"></a></li>
+                </ul>
+            </div>
+        </section>
+        <!--Seccion Strong spending customers-->
+        <section id="countdown">
+            <div class="container">
+                <h2>STRONG SPENDING CUSTOMERS</h2>
+                <dl id="timer" aria-label="Sale countdown">
+                    <div>
+                        <dt><time datetime="P78D" class="number">78</time></dt>
+                        <dd>DAYS</dd>
+                    </div>
+                    <div>
+                        <dt><time datetime="PT10H" class="number">10</time></dt>
+                        <dd>HOURS</dd>
+                    </div>
+                    <div>
+                        <dt><time datetime="PT47M" class="number">47</time></dt>
+                        <dd>MINUTES</dd>
+                    </div>
+                    <div>
+                        <dt><time datetime="PT5S" class="number">05</time></dt>
+                        <dd>SECONDS</dd>
+                    </div>
+                </dl>
+                <a href="#details" class="button">SEE DETAILS</a>
+            </div>
+        </section>
+        <!-- Seccion tienda -->
+        <section id="shop">
+            <h2 class="hidden">SHOP OUR PRODUCTS</h2>
+            <div class="container">
+                <nav id="categories" aria-label="Product categories">
+                    <ul role="tablist">
+                        <li role="presentation"><button type="button" role="tab" aria-selected="true" class="selected">SERVICE KITS</button></li>
+                        <li role="presentation"><button type="button" role="tab" aria-selected="false">TRENDING</button></li>
+                        <li role="presentation"><button type="button" role="tab" aria-selected="false">FURNITURE</button></li>
+                    </ul>
+                </nav>
+                <div id="products" role="tabpanel">
+                    <article itemscope itemtype="https://schema.org/Product">
+                        <figure class="image">
+                            <mark class="tag">Sale!</mark>
+                            <img itemprop="image" src="img/item1.png" alt="OTTOMAN TURBO">
+                        </figure>
+                        <h3 itemprop="name">OTTOMAN TURBO</h3>
+                        <div class="rating" itemprop="aggregateRating" itemscope itemtype="https://schema.org/AggregateRating">
+                            <span aria-label="5 out of 5 stars">
+                                <img src="img/star_24dp_FC5A34_FILL1_wght400_GRAD0_opsz24.svg" alt="" aria-hidden="true">
+                                <img src="img/star_24dp_FC5A34_FILL1_wght400_GRAD0_opsz24.svg" alt="" aria-hidden="true">
+                                <img src="img/star_24dp_FC5A34_FILL1_wght400_GRAD0_opsz24.svg" alt="" aria-hidden="true">
+                                <img src="img/star_24dp_FC5A34_FILL1_wght400_GRAD0_opsz24.svg" alt="" aria-hidden="true">
+                                <img src="img/star_24dp_FC5A34_FILL1_wght400_GRAD0_opsz24.svg" alt="" aria-hidden="true">
+                            </span>
+                        </div>
+                        <p class="price" itemprop="offers" itemscope itemtype="https://schema.org/Offer">
+                            <del>$79.90</del> 
+                            <ins>$78.00</ins>
+                        </p>
+                    </article>
+                    <article itemscope itemtype="https://schema.org/Product">
+                        <figure class="image">
+                            <mark class="tag">Sale!</mark>
+                            <img itemprop="image" src="img/item2.png" alt="EARPHONE CASE">
+                        </figure>
+                        <h3 itemprop="name">EARPHONE CASE</h3>
+                        <div class="rating" itemprop="aggregateRating" itemscope itemtype="https://schema.org/AggregateRating">
+                            <span aria-label="5 out of 5 stars">
+                                <img src="img/star_24dp_FC5A34_FILL1_wght400_GRAD0_opsz24.svg" alt="" aria-hidden="true">
+                                <img src="img/star_24dp_FC5A34_FILL1_wght400_GRAD0_opsz24.svg" alt="" aria-hidden="true">
+                                <img src="img/star_24dp_FC5A34_FILL1_wght400_GRAD0_opsz24.svg" alt="" aria-hidden="true">
+                                <img src="img/star_24dp_FC5A34_FILL1_wght400_GRAD0_opsz24.svg" alt="" aria-hidden="true">
+                                <img src="img/star_24dp_FC5A34_FILL1_wght400_GRAD0_opsz24.svg" alt="" aria-hidden="true">
+                            </span>
+                        </div>
+                        <p class="price" itemprop="offers" itemscope itemtype="https://schema.org/Offer">
+                            <del>$49.90</del> 
+                            <ins>$29.90</ins>
+                        </p>
+                    </article>
+                    <article itemscope itemtype="https://schema.org/Product">
+                        <figure class="image">
+                            <img itemprop="image" src="img/item3.png" alt="WALLNUT WALL">
+                        </figure>
+                        <h3 itemprop="name">WALLNUT WALL</h3>
+                        <div class="rating" itemprop="aggregateRating" itemscope itemtype="https://schema.org/AggregateRating">
+                            <span aria-label="5 out of 5 stars">
+                                <img src="img/star_24dp_FC5A34_FILL1_wght400_GRAD0_opsz24.svg" alt="" aria-hidden="true">
+                                <img src="img/star_24dp_FC5A34_FILL1_wght400_GRAD0_opsz24.svg" alt="" aria-hidden="true">
+                                <img src="img/star_24dp_FC5A34_FILL1_wght400_GRAD0_opsz24.svg" alt="" aria-hidden="true">
+                                <img src="img/star_24dp_FC5A34_FILL1_wght400_GRAD0_opsz24.svg" alt="" aria-hidden="true">
+                                <img src="img/star_24dp_FC5A34_FILL1_wght400_GRAD0_opsz24.svg" alt="" aria-hidden="true">
+                            </span>
+                        </div>
+                        <p class="price" itemprop="offers" itemscope>
+                            <span class="amount">$50.00</span>
+                        </p>
+                    </article>
+                    <article itemscope itemtype="https://schema.org/Product">
+                        <figure class="image">
+                            <img itemprop="image" src="img/item4.png" alt="TAKATA GLASS">
+                        </figure>
+                        <h3 itemprop="name">TAKATA GLASS</h3>
+                        <div class="rating" itemprop="aggregateRating" itemscope itemtype="https://schema.org/AggregateRating">
+                            <span aria-label="5 out of 5 stars">
+                                <img src="img/star_24dp_FC5A34_FILL1_wght400_GRAD0_opsz24.svg" alt="" aria-hidden="true">
+                                <img src="img/star_24dp_FC5A34_FILL1_wght400_GRAD0_opsz24.svg" alt="" aria-hidden="true">
+                                <img src="img/star_24dp_FC5A34_FILL1_wght400_GRAD0_opsz24.svg" alt="" aria-hidden="true">
+                                <img src="img/star_24dp_FC5A34_FILL1_wght400_GRAD0_opsz24.svg" alt="" aria-hidden="true">
+                                <img src="img/star_24dp_FC5A34_FILL1_wght400_GRAD0_opsz24.svg" alt="" aria-hidden="true">
+                            </span>
+                        </div>
+                        <p class="price" itemprop="offers" itemscope itemtype="https://schema.org/Offer">
+                            <span class="amount">$60.90</span>
+                        </p>
+                    </article>
+                    <article itemscope itemtype="https://schema.org/Product">
+                        <figure class="image">
+                            <mark class="tag">Sale!</mark>
+                            <img itemprop="image" src="img/item5.png" alt="AUTO OIL">
+                        </figure>
+                        <h3 itemprop="name">AUTO OIL</h3>
+                        <div class="rating" itemprop="aggregateRating" itemscope itemtype="https://schema.org/AggregateRating">
+                            <span aria-label="5 out of 5 stars">
+                                <img src="img/star_24dp_FC5A34_FILL1_wght400_GRAD0_opsz24.svg" alt="" aria-hidden="true">
+                                <img src="img/star_24dp_FC5A34_FILL1_wght400_GRAD0_opsz24.svg" alt="" aria-hidden="true">
+                                <img src="img/star_24dp_FC5A34_FILL1_wght400_GRAD0_opsz24.svg" alt="" aria-hidden="true">
+                                <img src="img/star_24dp_FC5A34_FILL1_wght400_GRAD0_opsz24.svg" alt="" aria-hidden="true">
+                                <img src="img/star_24dp_FC5A34_FILL1_wght400_GRAD0_opsz24.svg" alt="" aria-hidden="true">
+                            </span>
+                        </div>
+                        <p class="price" itemprop="offers" itemscope itemtype="https://schema.org/Offer">
+                            <del><span class="amount">$29.90</span></del> 
+                            <ins><span class="amount">$29.00</span></ins>
+                        </p>
+                    </article>
+                    <article itemscope itemtype="https://schema.org/Product">
+                        <figure class="image">
+                            <mark class="tag">Sale!</mark>
+                            <img itemprop="image" src="img/item6.png" alt="HORRISON">
+                        </figure>
+                        <h3 itemprop="name">HORRISON</h3>
+                        <div class="rating" itemprop="aggregateRating" itemscope itemtype="https://schema.org/AggregateRating">
+                            <span aria-label="5 out of 5 stars">
+                                <img src="img/star_24dp_FC5A34_FILL1_wght400_GRAD0_opsz24.svg" alt="" aria-hidden="true">
+                                <img src="img/star_24dp_FC5A34_FILL1_wght400_GRAD0_opsz24.svg" alt="" aria-hidden="true">
+                                <img src="img/star_24dp_FC5A34_FILL1_wght400_GRAD0_opsz24.svg" alt="" aria-hidden="true">
+                                <img src="img/star_24dp_FC5A34_FILL1_wght400_GRAD0_opsz24.svg" alt="" aria-hidden="true">
+                                <img src="img/star_24dp_FC5A34_FILL1_wght400_GRAD0_opsz24.svg" alt="" aria-hidden="true">
+                            </span>
+                        </div>
+                        <p class="price" itemprop="offers" itemscope itemtype="https://schema.org/Offer">
+                            <del><span class="amount">$397.90</span></del> 
+                            <ins><span class="amount">$350.90</span></ins>
+                        </p>
+                    </article>
+                    <article itemscope itemtype="https://schema.org/Product">
+                        <figure class="image">
+                            <img itemprop="image" src="img/item7.png" alt="KIME TURBO">
+                        </figure>
+                        <h3 itemprop="name">KIME TURBO</h3>
+                        <div class="rating" itemprop="aggregateRating" itemscope itemtype="https://schema.org/AggregateRating">
+                            <span aria-label="5 out of 5 stars">
+                                <img src="img/star_24dp_FC5A34_FILL1_wght400_GRAD0_opsz24.svg" alt="" aria-hidden="true">
+                                <img src="img/star_24dp_FC5A34_FILL1_wght400_GRAD0_opsz24.svg" alt="" aria-hidden="true">
+                                <img src="img/star_24dp_FC5A34_FILL1_wght400_GRAD0_opsz24.svg" alt="" aria-hidden="true">
+                                <img src="img/star_24dp_FC5A34_FILL1_wght400_GRAD0_opsz24.svg" alt="" aria-hidden="true">
+                                <img src="img/star_24dp_FC5A34_FILL1_wght400_GRAD0_opsz24.svg" alt="" aria-hidden="true">
+                            </span>
+                        </div>
+                        <p class="price" itemprop="offers" itemscope itemtype="https://schema.org/Offer">
+                            <span class="amount">$67.90 - $124.90</span>
+                        </p>
+                    </article>
+                    <article itemscope itemtype="https://schema.org/Product">
+                        <figure class="image">
+                            <mark class="tag">Sale!</mark>
+                            <mark class="tag sold">Sold out!</mark>
+                            <img itemprop="image" src="img/item8.png" alt="YAMA CAMERA">
+                        </figure>
+                        <h3 itemprop="name">YAMA CAMERA</h3>
+                        <div class="rating" itemprop="aggregateRating" itemscope itemtype="https://schema.org/AggregateRating">
+                            <span aria-label="5 out of 5 stars">
+                                <img src="img/star_24dp_FC5A34_FILL1_wght400_GRAD0_opsz24.svg" alt="" aria-hidden="true">
+                                <img src="img/star_24dp_FC5A34_FILL1_wght400_GRAD0_opsz24.svg" alt="" aria-hidden="true">
+                                <img src="img/star_24dp_FC5A34_FILL1_wght400_GRAD0_opsz24.svg" alt="" aria-hidden="true">
+                                <img src="img/star_24dp_FC5A34_FILL1_wght400_GRAD0_opsz24.svg" alt="" aria-hidden="true">
+                                <img src="img/star_24dp_FC5A34_FILL1_wght400_GRAD0_opsz24.svg" alt="" aria-hidden="true">
+                            </span>
+                        </div>
+                        <p class="price" itemprop="offers" itemscope itemtype="https://schema.org/Offer">
+                            <span class="amount">$100.00</span>
+                        </p>
+                    </article>
+                </div>
+            </div>
+        </section>
+        <section id="advice">
+            <div class="container">
+                <div>
+                    <h2>DO YOU WANT ADVICE?</h2>
+                    <p>Can't find what you're looking for? Contact us now</p>
+                </div>
+                <div id="buttons">
+                    <svg height="250" width="350">
+                        <defs>
+                            <linearGradient id="grad1">
+                            <stop offset="25%" stop-color="white" />
+                            <stop offset="100%" stop-color="cyan" />
+                            </linearGradient>
+                        </defs>
+
+                        <ellipse
+                            cx="135" cy="80" rx="105" ry="45" fill="url(#grad1)"
+                            style="stroke:rgb(0, 0, 0);" />
+
+                        <text fill="#fc5a34" font-size="105" font-family='Trebuchet MS' x="60" y="130">
+                            AAC
+                        </text>
+                    </svg>
+                    <a href="tel:+08004237754" class="button border">HOTLINE: +0 (800) 423-754</a>
+                    <a href="#contact" class="button">SEND US A TEXT MESSAGE</a>
+                </div>
+            </div>
+        </section>
+        <section id="blog">
+            <h2>TIPS ON THE CAR</h2>
+            <div class="container">
+                <article itemscope itemtype="https://schema.org/BlogPosting">
+                    <figure>
+                        <img itemprop="image" src="img/motor.png" alt="NRE FROM BUYAUTOPARTS IMAGE">
+                    </figure>
+                    <h3 itemprop="headline">NRE FROM BUYAUTOPARTS: MEGNETIC</h3>
+                    <p class="meta">
+                        <span itemprop="articleSection">AIR CONDITIONING</span> - 
+                        <span>by <span itemprop="author" itemscope itemtype="https://schema.org/Person"><span itemprop="name">apar</span></span></span>
+                    </p>
+                    <p itemprop="description">Like turbochargers and dual-clutch tranmissions, active suspensions is technology that has finally made its way to more and more "normal" cars. Oddly enough, it's the 3-hole box...</p>
+                    <a href="#article1" class="button-link">READ MORE</a>
+                </article>
+                <article itemscope itemtype="https://schema.org/BlogPosting">
+                    <figure>
+                        <img itemprop="image" src="img/gasolina.png" alt="UPGRADE FOR THE E30 AND E36 3 SERIES IMAGE">
+                    </figure>
+                    <h3 itemprop="headline">UPGRADE FOR THE E30 AND E36 3 SERIES</h3>
+                    <p class="meta">
+                        <span itemprop="articleSection">AUTO PARTS, BRAKES</span> - 
+                        <span>by <span itemprop="author" itemscope itemtype="https://schema.org/Person"><span itemprop="name">apar</span></span></span>
+                    </p>
+                    <p itemprop="description">While they were the darling of the "yuppie" class when new, the E30 and E36 BMW 3-Series from the 1980's and 1990's have no settled somewhere between. Oddly...</p>
+                    <a href="#article2" class="button-link">READ MORE</a>
+                </article>
+                <article itemscope itemtype="https://schema.org/BlogPosting">
+                    <figure>
+                        <img itemprop="image" src="img/mecanico.png" alt="FIX YOUR RIDE, PROTECT THE ENVIRONMENT IMAGE">
+                    </figure>
+                    <h3 itemprop="headline">FIX YOUR RIDE, PROTECT THE ENVIRONMENT</h3>
+                    <p class="meta">
+                        <span itemprop="articleSection">CAR FAIL, CAR FUN, CAR NEWS</span> - 
+                        <span>by <span itemprop="author" itemscope itemtype="https://schema.org/Person"><span itemprop="name">apar</span></span></span>
+                    </p>
+                    <p itemprop="description">Cars are some of the biggest sources of pollution in the environment, and it doesn't help if you daily driver is in the bad shape because it's very likely</p>
+                    <a href="#article3" class="button-link">READ MORE</a>
+                </article>
+            </div>
+            <div>
+            <video src="video/videoedit480.mp4" width="500" controls></video>
+            <iframe 
+                width="500"
+                height="281"
+                src="https://www.youtube.com/embed/lSm4QZqN8cA" 
+                title="Video ibai" 
+                allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                allowfullscreen>
+            </iframe>
+            </div>
+        </section>
+    </main>
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            
+            <nav id="content" aria-label="Footer navigation">
+                <section>
+                    <h3>HELP & SUPPORT</h3>
+                    <ul>
+                        <li><a href="#wishlist">Wishlist</a></li>
+                        <li><a href="#account">My account</a></li>
+                        <li><a href="#locator">Store Locator</a></li>
+                        <li><a href="#faq">FAQ</a></li>
+                    </ul>
+                </section>
+                <section>
+                    <h3>CUSTOMER SERVICE</h3>
+                    <ul>
+                        <li><a href="#support">Support Center</a></li>
+                        <li><a href="#policies">Policies</a></li>
+                        <li><a href="#returns">Returns</a></li>
+                        <li><a href="#faq-cs">FAQ</a></li>
+                    </ul>
+                </section>
+                <section>
+                    <h3>ABOUT US</h3>
+                    <ul>
+                        <li><a href="#partners">Partners</a></li>
+                        <li><a href="#contact-us">Contact Us</a></li>
+                        <li><a href="#recall">Product Recall</a></li>
+                        <li><a href="#shipping">Shipping</a></li>
+                        <li><a href="#blog">Blog</a></li>
+                    </ul>
+                </section>
+                <section id="contact">
+                    <h3>CONTACT</h3>
+                    <address class="info">
+                        <div>
+                            <img src="/img/locationFooter.png" alt="" aria-hidden="true">
+                            <p>Address: Box 565, Charlestown, Nevis, West indies</p>
+                        </div>
+                        <div>
+                            <img src="/img/phoneFooter.png" alt="" aria-hidden="true">
+                            <p>Phone: <a href="tel:+48889456789">+(48) 889 456 789</a></p>
+                        </div>
+                        <div>
+                            <img src="/img/mailFooter.png" alt="" aria-hidden="true">
+                            <p>Email: <a href="mailto:help.apar@gmail.com">help.apar@gmail.com</a></p>
+                        </div>
+                    </address>
+                    <nav id="social" aria-label="Social media links">
+                        <h4 class="hidden">Follow Us</h4>
+                        <a href="https://facebook.com" aria-label="Facebook"><img src="/img/facebook.svg" alt="" aria-hidden="true"></a>
+                        <a href="https://twitter.com" aria-label="Twitter"><img src="/img/twitter.svg" alt="" aria-hidden="true"></a>
+                        <a href="https://youtube.com" aria-label="YouTube"><img src="/img/youtube.svg" alt="" aria-hidden="true"></a>
+                        <a href="https://pinterest.com" aria-label="Pinterest"><img src="/img/pinterest.svg" alt="" aria-hidden="true"></a>
+                        <a href="https://instagram.com" aria-label="Instagram"><img src="/img/instagram.svg" alt="" aria-hidden="true"></a>
+                    </nav>
+                </section>
+            </nav>
+            <div id="bottom">
+                <p><small>Copyright <time datetime="2020">2020</time> | <mark class="orange">APAR</mark>. All Rights Reserved.</small></p>
+                <nav aria-label="Payment methods">
+                    <ul>
+                        <li><img src="/img/paypal.png" alt="PayPal"></li>
+                        <li><img src="/img/visa.png" alt="Visa"></li>
+                        <li><img src="/img/americanexpress.png" alt="American Express"></li>
+                        <li><img src="/img/mastercard.png" alt="MasterCard"></li>
+                        <li><img src="/img/mastercard2.png" alt="MasterCard"></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
