@@ -259,7 +259,7 @@ header {
             }
             
             & #logo {
-                width: 180px;
+                width: 110px;
             }
             
             & .container {
@@ -929,6 +929,13 @@ section#blog {
         grid-template-columns: repeat(3, 1fr);
         gap: 30px;
     }
+
+    & #videos{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+    }
     
     & article {
         display: flex;
@@ -985,6 +992,7 @@ section#blog {
         .container {
             grid-template-columns: repeat(2, 1fr);
         }
+
     }
     
     @media (width < 639px) {
