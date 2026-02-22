@@ -10,6 +10,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&display=swap" rel="stylesheet">
 </head>
 <body>
+    <a href="#main" class="skip-link">Saltar al contenido principal</a>
     <!-- Header -->
     <header>
         <div id="top">
@@ -50,11 +51,9 @@
                         <img src="img/search_24dp_252629_FILL0_wght400_GRAD0_opsz24.svg" alt="" aria-hidden="true">
                     </button>
                     <button type="button" aria-label="Favorites">
-                        <span class="count">0</span>
                         <img src="img/favorite_24dp_252629_FILL0_wght400_GRAD0_opsz24.svg" alt="" aria-hidden="true">
                     </button>
                     <button type="button" aria-label="Shopping cart">
-                        <span class="count">0</span>
                         <img src="img/shopping_bag_24dp_252629_FILL0_wght400_GRAD0_opsz24.svg" alt="" aria-hidden="true">
                     </button>
                 </nav>
@@ -75,7 +74,7 @@
             </div>
         </nav>
     </header>
-    <main>
+    <main id="main">
         <!-- Primera sección -->
         <section id="intro">
             <div class="container">
@@ -88,13 +87,16 @@
                     </aside>
                     <form id="vehicle-form">
                         <h3>MY VEHICLES</h3>
-                        <select>
+                        <label for="vehicle-make">Vehicle Make</label>
+                        <select id="vehicle-make" name="make">
                             <option value="">-- Make --</option>
                             <option value="">1</option>
                             <option value="">2</option>
                         </select>
-                        <input type="text" placeholder="-- Model --">
-                        <input type="text" placeholder="-- Year --">
+                        <label for="vehicle-model">Vehicle Model</label>
+                        <input type="text" id="vehicle-model" name="model" placeholder="-- Model --">
+                        <label for="vehicle-year">Vehicle Year</label>
+                        <input type="text" id="vehicle-year" name="year" placeholder="-- Year --">
                         <button type="submit">SEARCH</button>
                     </form>
                 </div>
@@ -205,7 +207,7 @@
                         </figure>
                         <h3 itemprop="name">OTTOMAN TURBO</h3>
                         <div class="rating" itemprop="aggregateRating" itemscope itemtype="https://schema.org/AggregateRating">
-                            <span aria-label="5 out of 5 stars">
+                            <span role="img" aria-label="5 out of 5 stars">
                                 <img src="img/star_24dp_FC5A34_FILL1_wght400_GRAD0_opsz24.svg" alt="" aria-hidden="true">
                                 <img src="img/star_24dp_FC5A34_FILL1_wght400_GRAD0_opsz24.svg" alt="" aria-hidden="true">
                                 <img src="img/star_24dp_FC5A34_FILL1_wght400_GRAD0_opsz24.svg" alt="" aria-hidden="true">
@@ -225,7 +227,7 @@
                         </figure>
                         <h3 itemprop="name">EARPHONE CASE</h3>
                         <div class="rating" itemprop="aggregateRating" itemscope itemtype="https://schema.org/AggregateRating">
-                            <span aria-label="5 out of 5 stars">
+                            <span role="img" aria-label="5 out of 5 stars">
                                 <img src="img/star_24dp_FC5A34_FILL1_wght400_GRAD0_opsz24.svg" alt="" aria-hidden="true">
                                 <img src="img/star_24dp_FC5A34_FILL1_wght400_GRAD0_opsz24.svg" alt="" aria-hidden="true">
                                 <img src="img/star_24dp_FC5A34_FILL1_wght400_GRAD0_opsz24.svg" alt="" aria-hidden="true">
@@ -244,7 +246,7 @@
                         </figure>
                         <h3 itemprop="name">WALLNUT WALL</h3>
                         <div class="rating" itemprop="aggregateRating" itemscope itemtype="https://schema.org/AggregateRating">
-                            <span aria-label="5 out of 5 stars">
+                            <span role="img" aria-label="5 out of 5 stars">
                                 <img src="img/star_24dp_FC5A34_FILL1_wght400_GRAD0_opsz24.svg" alt="" aria-hidden="true">
                                 <img src="img/star_24dp_FC5A34_FILL1_wght400_GRAD0_opsz24.svg" alt="" aria-hidden="true">
                                 <img src="img/star_24dp_FC5A34_FILL1_wght400_GRAD0_opsz24.svg" alt="" aria-hidden="true">
@@ -262,7 +264,7 @@
                         </figure>
                         <h3 itemprop="name">TAKATA GLASS</h3>
                         <div class="rating" itemprop="aggregateRating" itemscope itemtype="https://schema.org/AggregateRating">
-                            <span aria-label="5 out of 5 stars">
+                            <span role="img" aria-label="5 out of 5 stars">
                                 <img src="img/star_24dp_FC5A34_FILL1_wght400_GRAD0_opsz24.svg" alt="" aria-hidden="true">
                                 <img src="img/star_24dp_FC5A34_FILL1_wght400_GRAD0_opsz24.svg" alt="" aria-hidden="true">
                                 <img src="img/star_24dp_FC5A34_FILL1_wght400_GRAD0_opsz24.svg" alt="" aria-hidden="true">
@@ -281,7 +283,7 @@
                         </figure>
                         <h3 itemprop="name">AUTO OIL</h3>
                         <div class="rating" itemprop="aggregateRating" itemscope itemtype="https://schema.org/AggregateRating">
-                            <span aria-label="5 out of 5 stars">
+                            <span role="img" aria-label="5 out of 5 stars">
                                 <img src="img/star_24dp_FC5A34_FILL1_wght400_GRAD0_opsz24.svg" alt="" aria-hidden="true">
                                 <img src="img/star_24dp_FC5A34_FILL1_wght400_GRAD0_opsz24.svg" alt="" aria-hidden="true">
                                 <img src="img/star_24dp_FC5A34_FILL1_wght400_GRAD0_opsz24.svg" alt="" aria-hidden="true">
@@ -301,7 +303,7 @@
                         </figure>
                         <h3 itemprop="name">HORRISON</h3>
                         <div class="rating" itemprop="aggregateRating" itemscope itemtype="https://schema.org/AggregateRating">
-                            <span aria-label="5 out of 5 stars">
+                            <span role="img" aria-label="5 out of 5 stars">
                                 <img src="img/star_24dp_FC5A34_FILL1_wght400_GRAD0_opsz24.svg" alt="" aria-hidden="true">
                                 <img src="img/star_24dp_FC5A34_FILL1_wght400_GRAD0_opsz24.svg" alt="" aria-hidden="true">
                                 <img src="img/star_24dp_FC5A34_FILL1_wght400_GRAD0_opsz24.svg" alt="" aria-hidden="true">
@@ -320,7 +322,7 @@
                         </figure>
                         <h3 itemprop="name">KIME TURBO</h3>
                         <div class="rating" itemprop="aggregateRating" itemscope itemtype="https://schema.org/AggregateRating">
-                            <span aria-label="5 out of 5 stars">
+                            <span role="img" aria-label="5 out of 5 stars">
                                 <img src="img/star_24dp_FC5A34_FILL1_wght400_GRAD0_opsz24.svg" alt="" aria-hidden="true">
                                 <img src="img/star_24dp_FC5A34_FILL1_wght400_GRAD0_opsz24.svg" alt="" aria-hidden="true">
                                 <img src="img/star_24dp_FC5A34_FILL1_wght400_GRAD0_opsz24.svg" alt="" aria-hidden="true">
@@ -340,7 +342,7 @@
                         </figure>
                         <h3 itemprop="name">YAMA CAMERA</h3>
                         <div class="rating" itemprop="aggregateRating" itemscope itemtype="https://schema.org/AggregateRating">
-                            <span aria-label="5 out of 5 stars">
+                            <span role="img" aria-label="5 out of 5 stars">
                                 <img src="img/star_24dp_FC5A34_FILL1_wght400_GRAD0_opsz24.svg" alt="" aria-hidden="true">
                                 <img src="img/star_24dp_FC5A34_FILL1_wght400_GRAD0_opsz24.svg" alt="" aria-hidden="true">
                                 <img src="img/star_24dp_FC5A34_FILL1_wght400_GRAD0_opsz24.svg" alt="" aria-hidden="true">
@@ -468,7 +470,7 @@
                 </section>
             </nav>
             <div id="bottom">
-                <p><small>Copyright <time datetime="2020">2020</time> | <mark class="orange">APAR</mark>. All Rights Reserved.</small></p>
+                <p><small>Copyright <time datetime="2020">2020</time> | APAR. All Rights Reserved.</small></p>
                 <nav aria-label="Payment methods">
                     <ul>
                         <li><img src="/img/paypal.png" alt="PayPal"></li>
