@@ -4,11 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>APAR - Alan</title>
-    <link rel="preload" as="image" href="img/lazangClass.png" fetchpriority="high">
+    
+    <!-- Preconnect para recursos externos críticos -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+    <!-- Preload de recursos críticos -->
+    <link rel="preload" as="image" href="img/lazangClass.png" fetchpriority="high">
+    <link rel="preload" as="style" href="css/style.css">
+    <link rel="preload" as="font" href="https://fonts.gstatic.com/s/opensans/v40/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsjZ0B4gaVI.woff2" type="font/woff2" crossorigin>
+    <link rel="preload" as="font" href="https://fonts.gstatic.com/s/oswald/v53/TK3_WkUHHAIjg75cFRf3bXL8LICs1_FvsUZiYA.woff2" type="font/woff2" crossorigin>
+    
+    <!-- CSS crítico inline o con media print para diferir carga -->
     <link rel="stylesheet" href="css/style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+    
+    <!-- Fonts con display=swap para evitar FOIT -->
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+    <noscript><link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&display=swap" rel="stylesheet"></noscript>
 </head>
 <body>
     <a href="#main" class="skip-link">Saltar al contenido principal</a>
